@@ -17,7 +17,7 @@ The result is an interactive Gradio web app that allows users to upload images o
 | Huggingface Space | [Huggingface Space](https://huggingface.co/spaces/Flogoro/ZeroShotStanfordDogsGoemaflo)                |
 | Model Page        | [ViT Model on Huggingface](https://huggingface.co/Flogoro/vit-base-maurice-fp-stanford-dogs)           |
 | Code              | [GitHub Repository](https://github.com/goemansheir/dog-breed-classification)                           |
-| Dataset           | [Dataset](https://huggingface.co/datasets/maurice-fp/stanford-dogs) |
+| Dataset (Google-Drive)           | [Dataset](https://drive.google.com/drive/folders/1ISyR2ykyks__exkhWveNJlouv8bh3JzV?usp=drive_link) |
 
 ## Labels
 The model was trained and evaluated on the Stanford Dogs dataset, which includes images from the following 120 dog breeds. Each label combines the WordNet synset ID with the corresponding breed name:
