@@ -96,7 +96,7 @@ More details to the model and it's training can be found at [HuggingFace TensorB
 | Transfer Learning with `google/vit-base-patch16-224` (without data augmentation)                                                               | `runs/May30_23-48-28_marcs-macbook-pro.home`                                           |
 | Transfer Learning with `google/vit-base-patch16-224` (with data augmentation)                                                              | `runs/May31_00-21-22_marcs-macbook-pro.home`                                           |
 
-![eval/accuracy comparison goema](doc/accuracy_comp.png)
+![eval/accuracy comparison goema](./doc/accuracy_comp.png)
 
 ## Results / Final Evaluation
 
