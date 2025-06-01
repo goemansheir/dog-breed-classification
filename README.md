@@ -106,7 +106,7 @@ To evaluate the effectiveness of different image classification strategies, vari
 |----------------------------------------------------------------------|----------|-----------|--------|
 | Transfer Learning with `google/vit-base-patch16-224` (without data augmentation) | 83.28%      | -         | -      |
 | Transfer Learning with `google/vit-base-patch16-224` (with data augmentation)  | 84.16%      | -         | -      |
-| Zero-shot Image Classification with `openai/clip-vit-base-patch32` | 48.49%     | 48.00%    | 48.49%    |
+| Zero-shot Image Classification with `openai/clip-vit-large-patch14` | 48.49%     | 48.00%    | 48.49%    |
 
 
 ## Visual References
