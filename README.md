@@ -52,7 +52,7 @@ The model was trained and evaluated on the Stanford Dogs dataset, which includes
 | ------------------------------------------------------------------------------------ | -------------------------------------------------------------- |
 | [maurice-fp/stanford-dogs](https://huggingface.co/datasets/maurice-fp/stanford-dogs) | A fine-grained, labeled image dataset containing 20,580 photos across 120 dog breeds, based on the official Stanford Dogs dataset. |
 | [google/vit-base-patch16-224](https://huggingface.co/google/vit-base-patch16-224) | A general-purpose Vision Transformer model used as the base for fine-tuning on the dog dataset. |
-| [openai/clip-vit-large-patch14](https://huggingface.co/openai/clip-vit-large-patch14) | A pretrained CLIP model used for zero-shot breed classification via text prompts. |
+| [openai/clip-vit-base-patch32](https://huggingface.co/openai/clip-vit-base-patch32) | A pretrained CLIP model used for zero-shot breed classification via text prompts. |
 
 
 ## Data Augmentation
