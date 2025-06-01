@@ -1,8 +1,8 @@
 # %% [markdown]
-# # Florian Goeman's AI final Project Zero Shot part
+# # Florian Goeman's Final AI Project - Zero Shot
 # 
-# ## Loading all prerequirements
-# Loads a pretrained CLIP model for zero-shot image classification.
+# ## Loading all necessary components and prerequisites
+# Initializes the zero-shot image classification pipeline using a pretrained CLIP model.
 
 # %%
 from transformers import pipeline
@@ -77,7 +77,7 @@ clip_detector = pipeline(model="openai/clip-vit-large-patch14", task="zero-shot-
 def classify_dog(image):
     vit_results = vit_classifier(image)
     
-    # Map numeric string labels to actual dog names using labels_dogs
+    # Map numeric string labels to actual dog breeds using labels_dogs
     vit_output = {
         labels_dogs[int(result['label'])]: result['score']
         for result in vit_results
